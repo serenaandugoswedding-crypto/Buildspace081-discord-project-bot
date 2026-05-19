@@ -44,9 +44,9 @@ function newProjectModal() {
 
     const link = new TextInputBuilder()
         .setCustomId('field_link')
-        .setLabel('Link (opzionale)')
+        .setLabel('Link presentazione Google Slides')
         .setStyle(TextInputStyle.Short)
-        .setPlaceholder('https://...')
+        .setPlaceholder('https://docs.google.com/presentation/...')
         .setRequired(false)
         .setMaxLength(200)
 
